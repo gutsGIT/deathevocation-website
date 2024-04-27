@@ -30,19 +30,32 @@
   </head>
   <body>
     <!--Navbar-->
-    <div class="navbar px-4 py-4 bg-black mx-auto"  >
+    <div class="navbar px-4 py-4 bg-black mx-auto">
       <div class="container mx-auto">
         <div class="navbar-box flex items-center justify-between">
           <div class="logo">
-            <img src="assets/Deathevocation.png" alt="Logo Deathevocation" class="w-52 mx-auto"/>
+            <img
+              src="assets/Deathevocation.png"
+              alt="Logo Deathevocation"
+              class="w-52 mx-auto"
+            />
           </div>
-          <ul class="menu flex gap-x-7 items-center font-bold text-white" >
-            <li><a href="#" class="hover:text-slate-500">Home</a></li>
-            <li><a href="#"class="hover:text-slate-500">About</a></li>
-            <li><a href="#"class="hover:text-slate-500">Services</a></li>
-            <li><a href="#"class="hover:text-slate-500">Projects</a></li>
-            <li><a href="#"class="hover:text-slate-500">Contacts</a></li>
+          <ul
+            class="menu flex gap-x-7 items-center font-bold text-white md:static absolute z-10 top-24 left-0 md:flex-row flex-col md:bg-transparent bg-black md:w-auto w-full"
+          >
+            <li class="py-4 w-full text-center"><a href="#" class="hover:text-slate-500">Home</a></li>
+            <li class="py-4 w-full text-center"><a href="#" class="hover:text-slate-500">About</a></li>
+            <li class="py-4 w-full text-center"><a href="#" class="hover:text-slate-500">Services</a></li>
+            <li class="py-4 w-full text-center"><a href="#" class="hover:text-slate-500">Projects</a></li>
+            <li class="py-4 w-full text-center"><a href="#" class="hover:text-slate-500">Contacts</a></li>
           </ul>
+          <div class="md:hidden block">
+            <button class="hamburger hamburger--vortex " type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
