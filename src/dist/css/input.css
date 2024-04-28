@@ -12,6 +12,14 @@
         background-color: white;
     }
 
+    .header .header-box .box h1 {
+        line-height: 1,5;
+    }
+
+    .header .header-box .box p {
+        line-height: 2;
+    }
+
     @media screen and (max-width: 768px) {
         .menu {
             transform: scale(0);
